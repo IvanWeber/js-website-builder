@@ -2,11 +2,11 @@ import image from './assets/image.png'
 import {TextBlock, TitleBlock, ColumnsBlock, ImageBlock} from './classes/blocks'
 
 const text = `
-Cool videos and JavaScript tutorials here: <a href="https://youtube.com/c/VladilenMinin" target="_blank"> Vladilen Minin </a>. Here you will find comprehensive information on any aspect of the language, any frameworks, such as: React, Vue, Angular, Node, Svelte, Express, Next, Nuxt and much more. Join us!
+Enter text content in the value field and css styles in the styles field in the appropriate block, then click the add button. The added items will appear at the bottom of the page.
 `
 
 export const model = [
-  new TitleBlock('Конструктор сайтов на чистом JavaScript', {
+  new TitleBlock('Website Builder', {
     tag: 'h2',
     styles: {
       background: 'linear-gradient(to right, #ff0099, #493240)',
@@ -17,20 +17,22 @@ export const model = [
   }),
   new ImageBlock( image, {
     styles: {
-      padding: '2rem 0',
-      display: 'flex',
-      'justify-content': 'center'
+      // width: '100%'
+      // padding: '2rem 0',
+      // display: 'flex',
+      // 'justify-content': 'center'
     },
     imageStyles: {
-      width: '500px',
+      padding: '0',
+      width: '100%',
       height: 'auto'
     },
     alt: 'Это картинка'
   }),
   new ColumnsBlock([
-    'Приложение на чистом JavaScript, без использования библиотек',
-    'Узнаешь как работают принципы SOLID и ООП в JavaScript за один курс',
-    'JavaScript - это просто, интересно. Научись создавать любые UI своими руками'
+    'Build your own webstie',
+    'Knowledge of programming languages is not required',
+    'Very simple website creation. Create a website with your own hands.'
     ], {
       styles: {
         background: 'linear-gradient(to bottom, #8e2de2, #4a00e0)',
