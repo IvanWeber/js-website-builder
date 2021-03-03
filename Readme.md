@@ -1,7 +1,7 @@
 # JS Website Builder
 
 
-### How to deploy a project locally
+### How to deploy the project locally
 
 #### 1. Download the project
 #### 2. Open the project in terminal (on index.js level)
